@@ -75,6 +75,8 @@ async def get_addresses_within_radius(latitude: float = Query(..., description="
 
 
     # uvicorn main:app --reload (to run)
-    # http://127.0.0.1:8000/docs (CURD)
+    # url/docs (CURD)
+    # the data will be saved in mongoDB atlas
+    
 
 
